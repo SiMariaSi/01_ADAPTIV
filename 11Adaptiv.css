@@ -1,0 +1,138 @@
+table{
+    width: auto;
+    height: auto;
+}
+
+
+    
+
+
+table tr td.td2:last-child {
+    word-break: break-word;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.tropici{
+    max-width: 2560px;
+    max-height: fit-content;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-template-rows: minmax(250px,auto);
+    
+    grid-gap: 20px;
+   
+    
+    width: 100%;
+    background-color: black;
+}
+
+.palma a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    margin: 0;
+}
+
+
+
+
+.palma img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.tropici > div{
+    background: rgba(51, 50, 50, 0.95);
+    color: beige;
+    padding: 15px;
+    font-family: Georgia, serif;
+  
+    text-transform: none;
+    border-radius: 8px;
+    
+
+}
+
+.byrya {
+    max-width: 1200px;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-template-rows: 250px;
+    grid-template-areas: dense;
+    grid-gap: 20px;
+    width: 100%;
+    background-color: black;
+   
+}
+
+.byrya > div{
+    background: rgba(51, 50, 50, 0.95);
+    color: beige;
+    padding: 15px;
+    font-family: Georgia, serif;
+  
+    text-transform: none;
+    border-radius: 8px;
+    
+
+}
+
+.kust{
+    max-width: 2560px;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: repeat(1,minmax(300px,1fr));
+    grid-template-rows: minmax(100px,auto);
+    grid-template-areas: dense;
+    grid-gap: 20px;
+    width: 100%;
+    background-color: black;
+    
+
+}
+
+.kust1 > div{
+    background: rgba(51, 50, 50, 0.95);
+    color: beige;
+    padding: 15px;
+    font-family: Georgia, serif;
+  
+    text-transform: none;
+    border-radius: 8px;
+
+}
+
+.tropici{
+    margin: 0;
+    padding: 15px ;
+}
+
+.poko a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    margin: 0;
+
+}
+
+.poko img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
