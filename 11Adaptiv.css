@@ -140,14 +140,14 @@ table tr td.td2:last-child {
 }
 
 
-.palma a{
+.palma p a{
     color:beige;
     text-decoration: none;
     vertical-align: middle;
    
 
 }
-.palma a:hover{
+.palma p a:hover{
 
 
 color: rgba(175, 98, 67, 0.95);
