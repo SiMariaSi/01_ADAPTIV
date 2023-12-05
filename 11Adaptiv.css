@@ -62,7 +62,7 @@ table tr td.td2:last-child {
     color: beige;
     padding: 15px;
     font-family: Georgia, serif;
-  
+  text-transform: none;
     text-transform: none;
     border-radius: 8px;
     
