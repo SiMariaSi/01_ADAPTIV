@@ -139,3 +139,18 @@ table tr td.td2:last-child {
     object-fit: cover;
 }
 
+
+.palma a{
+    color:beige;
+    text-decoration: none;
+    vertical-align: middle;
+   
+
+}
+.palma a:hover{
+
+
+color: rgba(175, 98, 67, 0.95);
+
+}
+
